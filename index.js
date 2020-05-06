@@ -11,12 +11,12 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 
-const temp = "JyCKOp1E8fUI5pI2hCVDHcNdEvl8xLkQ";
+const temp = "GET_NEW_PASSWORD";
 
 // connect to redis cloud
 const client = redis.createClient({
   port: 13631,
-  host: "redis-13631.c14.us-east-1-2.ec2.cloud.redislabs.com",
+  host: "SET_NEW_END_POINT_IN_REDISLABS",
   password: temp,
 });
 
